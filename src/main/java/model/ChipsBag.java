@@ -14,4 +14,7 @@ class ChipsBag extends Product {
     public String use() {
         return "Using Product 2: " + getProductName();
     }
+    public String getDescription() {
+        return "A bag of chips";
+    }
 }

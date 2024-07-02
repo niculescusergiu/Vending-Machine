@@ -14,4 +14,7 @@ class CocaCola extends Product {
     public String use() {
         return "Using Product 1: " + getProductName();
     }
+    public String getDescription() {
+        return "A bottle of coke";
+    }
 }

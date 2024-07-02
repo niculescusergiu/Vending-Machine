@@ -14,4 +14,7 @@ class ProteinBar extends Product {
     public String use() {
         return "Using Product 3: " + getProductName();
     }
+    public String getDescription() {
+        return "A protein bar";
+    }
 }
